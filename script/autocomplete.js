@@ -274,6 +274,7 @@ app.filter('highlight', ['$sce', function ($sce) {
         input = (""+input).replace(exp, "<span class=\"highlight\">$1</span>");
       }
     }
+    if(typeof(input) != "string") return '';
     return $sce.trustAsHtml(input);
   };
 }]);
