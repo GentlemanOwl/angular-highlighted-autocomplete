@@ -1,0 +1,14 @@
+{
+  "name": "angular-highlighted-autocomplete",
+  "version": "1.0",
+  "ignore": [],
+  "homepage": "https://github.com/GentlemanOwl/angular-highlighted-autocomplete",
+  "authors": [],
+  "description": "Simple to use autocomplete directive in a module for AngularJs!",
+  "keywords": [
+    "autocomplete",
+    "angularjs"
+  ],
+  "license": "MIT",
+  "main": ["./dist/app.min.js", "./dist/app.min.css"]
+}

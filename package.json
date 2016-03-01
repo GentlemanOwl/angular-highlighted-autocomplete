@@ -1,0 +1,28 @@
+{
+  "name": "angular-highlighted-autocomplete",
+  "version": "1.0.0",
+  "description": "Simple to use autocomplete directive in a module for AngularJs!",
+  "main": "index.js",
+  "dependencies": {
+    "gulp-rename": "^1.2.2"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-uglify": "^1.5.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GentlemanOwl/angular-highlighted-autocomplete.git"
+  },
+  "keywords": [
+    "autocomplete",
+    "angularjs"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GentlemanOwl/angular-highlighted-autocomplete/issues"
+  },
+  "homepage": "https://github.com/GentlemanOwl/angular-highlighted-autocomplete#readme"
+}
