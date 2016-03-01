@@ -263,7 +263,7 @@ app.directive('autocomplete', function() {
 
 app.filter('highlight', ['$sce', function ($sce) {
   return function (input, searchParam) {
-    if (typeof input === 'function') return '';
+    if (typeof(input) !== "string") return '';
     if (searchParam) {
       var words = '(' +
             searchParam.split(/\ /).join(' |') + '|' +
@@ -274,7 +274,6 @@ app.filter('highlight', ['$sce', function ($sce) {
         input = (""+input).replace(exp, "<span class=\"highlight\">$1</span>");
       }
     }
-    if(typeof(input) != "string") return '';
     return $sce.trustAsHtml(input);
   };
 }]);
